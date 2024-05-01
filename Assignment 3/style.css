@@ -1,0 +1,59 @@
+.outer-container {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  .fields {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .field-add {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    width: 130px;
+  }
+  
+  .address-r {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+  }
+  
+  .rightside {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  
+  .space {
+    justify-content: space-around;
+  }
+  
+  #errorDiv1,
+  #errorDiv2,
+  #errorDiv3,
+  #errorDiv4,
+  #errorDiv5,
+  #errorDiv6,
+  #errorDiv7,
+  #errorDiv8 {
+    width: 250px;
+    color: red;
+    margin-top: 5px;
+  }
+  
